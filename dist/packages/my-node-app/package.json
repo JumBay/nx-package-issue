@@ -2,8 +2,8 @@
   "name": "my-node-app",
   "version": "0.0.1",
   "dependencies": {
-    "@mailchimp": "mailchimp",
-    "tslib": "^2.3.0"
+    "@mailchimp/mailchimp_marketing": "3.0.80",
+    "tslib": "2.5.0"
   },
   "main": "main.js"
 }

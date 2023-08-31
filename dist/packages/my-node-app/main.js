@@ -1,22 +1,20 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
-
-/***/ "@mailchimp/mailchimp_marketing":
-/***/ ((module) => {
-
-module.exports = require("@mailchimp/mailchimp_marketing");
-
-/***/ }),
-
-/***/ "tslib":
+/******/ 	var __webpack_modules__ = ([
+/* 0 */,
+/* 1 */
 /***/ ((module) => {
 
 module.exports = require("tslib");
 
-/***/ })
+/***/ }),
+/* 2 */
+/***/ ((module) => {
 
-/******/ 	});
+module.exports = require("@mailchimp/mailchimp_marketing");
+
+/***/ })
+/******/ 	]);
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
@@ -50,8 +48,8 @@ var exports = __webpack_exports__;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.mailchimpRun = void 0;
-const tslib_1 = __webpack_require__("tslib");
-const mailchimp = tslib_1.__importStar(__webpack_require__("@mailchimp/mailchimp_marketing"));
+const tslib_1 = __webpack_require__(1);
+const mailchimp = tslib_1.__importStar(__webpack_require__(2));
 function mailchimpRun() {
     console.log({ mailchimp });
 }
